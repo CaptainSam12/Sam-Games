@@ -7,13 +7,7 @@ show_reading_time: false
 
 
 
-Hi! We are the Goat Group
-
-Scrum Master: Rishab
-
-Assistant Scrum Master: Aashi
-
-Scrums: Joshika, Adam, Ayden, Kashyap
+Hey, I'm Sam, welcome to my games!
 
 ### Development Environment
 
@@ -42,17 +36,17 @@ Scrums: Joshika, Adam, Ayden, Kashyap
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #5100ffff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
         </div>
     </a>
     <a href="{{site.baseurl}}/custompong" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #d000ffff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Pong 
         </div>
     </a>
     <a href="{{site.baseurl}}/javascript/project/blackjack" style="text-decoration: none;">
-        <div style="background-color: #3300ffff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #00b3ffff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Black Jack
         </div>
     </a>
@@ -65,7 +59,7 @@ Scrums: Joshika, Adam, Ayden, Kashyap
 > Quick links to all hacks in the `hacks/` folder.
 
 <div style="display:flex; flex-wrap:wrap; gap:10px;">
-{% assign colors = "#e74c3c,#3498db,#2ecc71,#f1c40f,#9b59b6,#1abc9c,#e67e22,#34495e,#7f8c8d,#d35400" | split: "," %}
+{% assign colors = "#e7de3cff,#3498db,#2ecc71,#f1c40f,#9b59b6,#1abc9c,#e67e22,#34495e,#7f8c8d,#d35400" | split: "," %}
 {% assign hack_pages = site.pages | where_exp: "p", "p.path contains 'hacks/'" %}
 {% for p in hack_pages %}
     {% assign idx = forloop.index0 | modulo: colors.size %}
@@ -84,4 +78,4 @@ Scrums: Joshika, Adam, Ayden, Kashyap
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
-<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
+<p style="color: #2ab13aff;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #642ab1ff; text-decoration: underline;">Socials</a></p>
