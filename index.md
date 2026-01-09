@@ -56,7 +56,7 @@ Hey, I'm Sam, welcome to my games!
 
 ### Hacks
 
-> Quick links to all hacks in the `hacks/` folder.
+> Quick links to hacks
 
 <div style="display:flex; flex-wrap:wrap; gap:10px;">
 {% assign colors = "#f1e93eff,#3498db,#2ecc71,#f1c40f,#9b59b6,#1abc9c,#e67e22,#34495e,#7f8c8d,#d35400" | split: "," %}
