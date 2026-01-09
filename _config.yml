@@ -18,8 +18,8 @@ title: Open Coding
 description: "Class of 2026"
 owner_name: John Mortensen
 github_username: jm1021 
-github_repo: "Goat-Group" 
-baseurl: "/Goat-Group" 
+github_repo: "Sam-Games" 
+baseurl: "/Sam-Games" 
 future: true
 exclude:
   - venv
