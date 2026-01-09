@@ -76,6 +76,6 @@ Hey, I'm Sam, welcome to my games!
 <!-- Contact Section -->
 ### Get in Touch
 
-> Any Questions?
+> Any Questions? Reach out amd ask questions!
 
 <p style="color: #2ab13aff;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #642ab1ff; text-decoration: underline;">Socials</a></p>
